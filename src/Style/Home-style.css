@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white
+}
+
+.mickl-picture{
+    max-width: 300px;
+    height: 350px;
+    object-fit: fill;
+    display: block;
+}
+
+.mickl__title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.mickl__p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.Anonim{
+    margin-top: 30%;
+    text-align: right;
+}

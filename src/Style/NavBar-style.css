@@ -1,0 +1,36 @@
+
+.nav_link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.nav-list{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 30px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.link{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: .2s linear;
+}
+
+.link:hover{
+    font-size: 35px;
+}
+
+.logo:hover{
+    color: red;
+}

@@ -1,0 +1,20 @@
+.Contact{
+    text-align: center;
+    flex-direction: column;
+    display: inline;
+}
+
+.contact__inner{
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+.phone-email{
+    margin-top: 10%;
+}
+
+.No_number{
+    margin-top: 20%;
+    font-size: 15px;
+    text-align: left;
+}
