@@ -1,34 +1,56 @@
-.Workes-h1{
-    font-size: 30px;
-    text-align: center;
-    margin-top: 5%;
+
+.project-content{
+    display: flex;
+    text-decoration: none;
 }
 
 .project_img{
-    height: 300px;
-    margin-bottom: 30px;
-    min-width: 400px;
+    max-width: 300px;
+    height: 250px;
+    display: flex;
+    position: relative;
 }
 
-.HowareYou{
-    padding-bottom: 40px;
+.project_title{
+    vertical-align: bottom;
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
 }
 
-.project{
-    text-align: center;
+.project-h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
-.workes__title{
-    text-align: center;
-    padding: 35px;
+.project__navlink{
+    text-decoration: none;
+    vertical-align: bottom;
+    margin-left: 5%;
+    padding: 10px;
+    padding-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.workes__title2{
-    text-align: center;
-    padding: 15px
-}
+/* BigImg */
 
-.Project-h1{
+.big-title{
     font-size: 40px;
     text-align: center;
+    margin: 20px;
 }
+
+.big_img{
+    max-width: 1200px;
+    max-height: 1200px;
+}
+
+.big__p{
+    font-size: 25px;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+}
+

@@ -9,6 +9,7 @@ import Home from './JS/Home';
 import Contact from './JS/Contact';
 import Project from './JS/Project';
 import Projects from './JS/Projects';
+import After from './JS/After';
 import Footer from './JS/Footer';
 
 
@@ -20,8 +21,9 @@ function App() {
         <Route exact path='/' element={<Header />} />
         <Route path='/Home' element={<Home />} />
         <Route path="/Project" element={<Projects />} />
-        <Route path='/Projects' element={<Project />} />
+        <Route path='/Project/:id' element={<Project />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/After' element={<After />} />
       </Routes>
     
     <Footer />

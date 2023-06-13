@@ -1,26 +1,32 @@
 import '../Style/reset.css';
 import '../Style/Home-style.css';
-import Photo from '../Img-Portfolio/Michael.jpg';
+
 
 const Home = () => {
     return(
         <>
 
-    <div className="Mickl">
+    <div className="Home">
 
         <div className="container">
 
-            <div className="MickL_img">
-                
-                <img className="mickl-picture" src={Photo} align="left" />
+            <ul className='content__list'>
 
-                <h1 className='mickl__title'>Michael Afton</h1>
-                
-                <p className='mickl__p'>Emaciated physique, eyes as if meChanical, chaotic movement resembling a rob%t. W@rked at fred$y fazbear's sist&* location pizzeria. The p#zzeria has closed</p>
+                <li className='content__list-item'>
+                    <h2 className='home-h2'>Frontent</h2>
+                    <p className='content__item'>
+                        HTML, CSS, Javascript, ReactJS, SASS, 
+                    </p>
+                </li>
 
-                <p className='Anonim'>Don't listen to him he's not alive</p>
-
-            </div>
+                <li className='content__list-item'>
+                    <h2 className='home-h2'>Backend</h2>
+                    <p className='content__item'>
+                        Node.js
+                    </p>
+                </li>
+            </ul>
+            
 
         </div>
 

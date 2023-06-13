@@ -1,14 +1,16 @@
 .footer{
-    position: relative;
+    background-color: #f3f5f8;
+}
+
+.footer__title{
+    position: absolute;
     bottom: 0;
-}
-
-.footer__text{
-    text-align: center;
+    left: 46%
 }
 
 
-.footer-h2{
+.footer-p{
     margin-top:20px;
     margin-bottom: 50px;
+    text-align: center;
 }

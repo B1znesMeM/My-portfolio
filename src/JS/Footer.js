@@ -11,9 +11,7 @@ const Footer = () => {
     
             <div className="footer__title">
     
-                <h2 className="footer-h2">I am waiting for your calls</h2>
-    
-                <h3 className="HowareYou">I always come back</h3>
+                <p className="footer-p">@2023 Portfolio</p>
     
             </div>
     
@@ -22,9 +20,7 @@ const Footer = () => {
     </div>
     
     )
-    
-    
-    
+
     }
     
     export default Footer;

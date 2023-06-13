@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+.after{
+    font-family: 'Kalam', cursive;
+    display: flex;
+}
+
+.after__item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.after__list{
+    width: 60%;
+}
+
+.after__topTitle{
+    margin-top: 5%;
+}
+
+.after__title{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.after__p{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1.3em;
+}
+
+.after__language{
+    font-size: 25px;
+    line-height: 1.2em;
+}
+
+.span__language{
+    font-size: 30px;
+}
+
+.after__biography{
+    margin-top: 8%;
+}
+
+.biography__paragraph{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-family: 'Kablammo', cursive;
+}
+
+.img__after{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.Yandex__img{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.img-yandex{
+    display: flex;
+    width: 100%;
+    height: 95%;
+}
+
+.Synergy__img{
+    width: 100%;
+    height: 50%;
+}
+
+.img-synergy{
+    width: 100%;
+    height: 50%;
+}

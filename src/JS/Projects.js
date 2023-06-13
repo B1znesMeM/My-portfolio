@@ -10,11 +10,9 @@ const Projects = () => {
             
             <div className="container">
 
-                <h1 className="Workes-h1">Works</h1>
+                <h1 className="project-h1">Projects</h1>
 
-                <h2 className="workes__title">Pizzeria Freddy Fazbers sister location</h2>
-
-                <ul className="works">
+                <ul className="project-content">
 
                     {projects.map(( project , index) => {
 
@@ -27,8 +25,6 @@ const Projects = () => {
                     })}
 
                 </ul>
-
-                <h2 className="workes__title2">Pizzeria freddy fazbers 2</h2>
 
             </div>
 

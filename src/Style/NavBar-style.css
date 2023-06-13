@@ -1,8 +1,12 @@
-
+.div-nav{
+    background-color: blue;
+    padding-bottom: 20px;
+}
 .nav_link{
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    padding-top: 15px;
+    
 }
 
 .nav-list{
@@ -23,7 +27,7 @@
     color: white;
     font-size: 30px;
     text-decoration: none;
-    margin-left: 40px;
+    padding-left: 40px;
     transition: .2s linear;
 }
 

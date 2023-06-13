@@ -2,6 +2,8 @@ import '../Style/reset.css';
 import '../Style/Header-style.css';
 
 const Header = () => {
+
+    
     
     return(
         
@@ -13,9 +15,15 @@ const Header = () => {
 
             <div className="header__text">
 
-                <h2 className="header__title">Um ...Hello, Hello ...I called to congratulate you on your new job. You're just a third worker ...the others ...um ...they could not stand the atmosphere and resigned. I hope that you have a stronger mentality than that of those two, and you ...you will stay longer.</h2>
+                <h2 className="header__title">Hi, my name is Arkady and I am a <span className="header__span"> Programmer</span></h2>
 
-                <p className="header__p">I decided to make a portfolio something in the likeness of a security guard in the fnaf. Don't judge strictly</p>
+                <p className="header__p">I will make you a website , you can see my profile:</p>
+
+                    <div className='header__button'>
+
+                        <a className='header__btn' href="#!">Download CV</a>
+                    </div>
+
 
             </div>
 
